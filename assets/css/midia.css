@@ -1,0 +1,121 @@
+/*menu hamburguer*/
+@media (max-width: 1061px) {
+    #btn-mobile {
+       display: block;
+    }
+ 
+    #menu {
+       display: block;
+       position: absolute;
+       width: 100%;
+       top:70px;
+       right: 0px;
+       background-color:rgb(255, 255, 255);
+       height: 0px;
+       transition: .6s;
+       z-index: 1000;
+       visibility: hidden;
+       overflow-y: hidden;
+       
+    }
+ 
+    #nav.active #menu{
+       height: 100vh;
+       visibility: visible;
+       overflow-y: auto;
+       
+       
+    }
+    header ul li {
+       margin-left: 20px;
+       font-weight: 500;
+       margin-top: 30px;
+       width: 90%;
+       border-bottom: 2px solid rgba(0, 0, 0, .05) ;
+   }
+ 
+   #btn-mobile{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding:  .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    gap: .5rem;
+   }
+ 
+   #hamburguer {
+    border-top: 2px solid;
+    width: 20px;
+   }
+ 
+   #hamburguer::after, #hamburguer::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+    
+    
+   }
+ 
+   #nav.active #hamburguer {
+    border-top-color: transparent;
+   }
+ 
+   #nav.active #hamburguer::before{
+    transform: rotate(135deg);
+   }
+ 
+   #nav.active #hamburguer::after{
+    transform: rotate(-135deg);
+    top: -7px;
+   }
+
+   .section-engenharia h3{
+    width: 90%;
+}
+   
+   
+   
+ }
+
+ @media (max-width: 1345px) {
+    .section-engenharia h2 {
+        font-size: 60px;
+        font-weight: 600;
+        width: 90%;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+    }
+
+
+ @media (max-width: 808px) {
+    .section-engenharia h3 {
+        font-size: 16px;
+    }
+    .section-engenharia h1 {
+        font-size: 14px;
+    }
+    .section-engenharia h2 {
+        font-size: 32px;
+    }
+
+
+ }
+
+
+
+    
+
+
+
+    
+    
+ }
+

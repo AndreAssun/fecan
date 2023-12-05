@@ -14,22 +14,62 @@
 
 /*HEADER*/
 
-
-.header {
-
-    letter-spacing: 0.5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 5px;
-    width: 90%;
-    
-    
+#btn-mobile {
+    display: none;
 }
 
 
-.menu-header button{
+.header {
+    letter-spacing: 0.5px;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    
+}
+
+#logo {
+    max-width: 236px;
+    margin-top: 10px;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+header ul li {
+
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    
+}
+
+header ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+#burguer {
+    width: 55px;
+}
+
+.menu li button{
     text-transform: uppercase;
     padding: 8px 12px;
     letter-spacing: 0.5px;
@@ -39,7 +79,7 @@
     border: none;
     letter-spacing: 2px;
 }
-.menu-header button:hover{
+.menu li button:hover{
     background-color: #FFC565;
 }
 
@@ -59,7 +99,7 @@
 
 }
 
-.logo img{
+.logo{
     width: 138px;
     padding-top: 5px;
 }
@@ -161,10 +201,11 @@
 
 }
 
-button{
+.button-contato{
     display: flex;
     align-items: center;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .section-livre{ 

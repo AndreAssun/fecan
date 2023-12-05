@@ -6,24 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fecan Engenharia</title>
     <link rel="shortcut icon" href="/assets/image/logo/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/midia.css">
+    <link rel="stylesheet" href="/assets/js/script.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
     <div class="section-intro">
-        <header>
-            <div class="header">
-                <div class="logo">
-                    <img src="assets/image/logo/Capturar6-transformed-removebg-preview.png" alt="Logo-Fecan-Engenharia">
-                </div>
-                <div class="menu-header">
-                    <a href="#">Home</a>
-                    <a href="#">Sobre Nós</a>
-                    <a href="#">Serviços</a>
-                    <a href="#"><button>Entre em contato<img src="assets/image/icon-whatsapp.png" alt="icon-whatsapp" class="icon-whatsapp"></button></a>
-                </div>
+        <header class="header" id="header">
+            <div class="menu">
+              <h1>
+                <a href="index.html">
+                  <img src="/assets/image/logo/logo.png" alt="Logo-Fecan-Engenharia" class="logo">
+                </a>
+              </h1>
+              <nav class="menu-nav" id="nav">
+                <button id="btn-mobile" aria-label="Abrir Maenu" aria-haspopup="true" aria-controls="menu"
+                  aria-expanded="false">Menu
+                  <span id="hamburguer"></span>
+                </button>
+                <ul id="menu" role="menu">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Sobre Nós</a></li>
+                  <li><a href="#">Serviços</a></li>
+                  <li><a href="#"><button class="button-contato">Entre em contato<img src="assets/image/icon-whatsapp.png" alt="icon-whatsapp" class="icon-whatsapp"></button></a></li>
+                </ul>
+              </nav>
             </div>
         </header>
 
@@ -39,7 +49,7 @@
                     <h3>Somos uma construtora especializada em <strong>obras rápidas</strong> para o <strong>mercado varejista</strong> e <strong>corporativo</strong>.</h3>
                     <h3>Construções, demolições e desmobilização de lojas, restaurantes e escritórios com <strong>prazos curtos</strong> para
                         atender nosso cliente</h3>
-                    <a href="#"><button>Entre em contato<img src="assets/image/icon-whatsapp.png" alt="icon-whatsapp" class="icon-whatsapp"></button></a>
+                    <a href="#"><button class="button-contato">Entre em contato<img src="assets/image/icon-whatsapp.png" alt="icon-whatsapp" class="icon-whatsapp"></button></a>
                 </section>
                 <section class="section-livre">
                 
@@ -48,6 +58,15 @@
             </section>
         </main>
     </div>
+
+
+ <!--JS-->
+ <script src="assets/js/script.js"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   //iniciar animações de texto
+   AOS.init();
+ </script>
 </body>
 
 </html>
