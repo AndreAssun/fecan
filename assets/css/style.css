@@ -312,5 +312,101 @@ header ul li a {
     background-color: #FFC565;
 }
 
+/*cards-serviços*/
+
+.section-servicos{
+    background-color: #466FC8;
+    width: 100%;
+    
+    
+}
+.content-servicos{
+    text-align: center;
+    padding-top: 100px;
+    
+    
+}
+
+
+.linha2{
+    width: 80px;
+    height: 4px;
+    background-color:#FFB337; 
+    margin-right: 35px;
+    
+
+}
+.titulo-quebra2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo-servicos h1{
+    letter-spacing: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.titulo-servicos h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 6px;
+    margin-top: 20px;
+}
+.cards-servicos{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: center;
+    grid-column-gap: 2em;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 70px;
+    
+}
+
+.card-servicos:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card-servicos{
+    background-color: rgb(188, 188, 223);
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+    background-color: #2C4781; 
+    overflow: hidden; /* Adicione esta linha para evitar que o conteúdo ultrapasse o card durante a animação */
+    
+}
+
+.image-servicos img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nome-servicos{
+    height: 65px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nome-servicos h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    
+    
+}
+
 
 

@@ -104,12 +104,19 @@
     }
     .section-engenharia h1 {
         font-size: 14px;
+        margin-bottom: 80px;
+    }
+    .linha {
+        margin-bottom: 80px;
+
     }
     .section-engenharia h2 {
         font-size: 32px;
+        margin-bottom: 30px;
     }
     .div-texto-somos h1 {
         font-size: 14px;
+        margin-bottom: 30px;
     }
     .div-texto-somos h2 {
         font-size: 32px;
@@ -118,6 +125,7 @@
         font-size: 16px;
         width: 100%;
     }
+    
     .div-texto-somos{
         margin-left: 0px;
     }
@@ -132,16 +140,80 @@
         width: 85%;
         margin: 0 auto;
     }
+    .titulo-servicos h1 {
+        font-size: 14px;
+        
 
-    
-    
-
+    }
+    .titulo-servicos h2{
+        font-size: 32px;
+        
+    }
+    .linha2{
+        width: 100px;
+        margin-right: 20px;
+    }
 
     .text-content {
         padding: 0px 10px 10px 0px;
     }
     .content-quem-somos {
         width: 100%;
+    }
+    .content-servicos {
+        text-align: center;
+        padding-top: 100px;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+
+    
+}
+
+/*cards*/
+
+@media (max-width: 1120px) {
+    .cards-servicos {
+    grid-template-columns: auto auto auto;
+
+    }
+
+}
+
+@media (max-width: 840px) {
+    .cards-servicos {
+    grid-template-columns: auto auto;
+
+    }
+
+}
+
+@media (max-width: 550px) {
+    .cards-servicos {
+    grid-template-columns: auto;
+
+    }
+
+    .titulo-quebra2{
+        flex-direction: column-reverse;
+        
+        line-height: 25px;
+        
+
+    }
+
+    .linha2{
+        margin-top: 10px;
+    }
+    .content-servicos {
+       
+        padding-top: 70px;
+
+    }    
+
+    .titulo-servicos h2 {
+        padding-top: 20px;
     }
 }
 
