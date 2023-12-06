@@ -9,8 +9,9 @@
        position: absolute;
        width: 100%;
        top:70px;
-       right: 0px;
-       background-color:rgb(255, 255, 255);
+       left: 0px;
+       background-color:#002D64;
+       border-radius: 0px  20px 0px 0px;
        height: 0px;
        transition: .6s;
        z-index: 1000;
@@ -30,8 +31,9 @@
        margin-left: 20px;
        font-weight: 500;
        margin-top: 30px;
+       padding-bottom: 30px;
        width: 90%;
-       border-bottom: 2px solid rgba(0, 0, 0, .05) ;
+       border-bottom: 2px solid rgba(245, 245, 245, 0.05) ;
    }
  
    #btn-mobile{
@@ -77,13 +79,13 @@
     top: -7px;
    }
 
+   /*section engenharia*/
+
    .section-engenharia h3{
     width: 90%;
 }
-   
-   
-   
- }
+}
+
 
  @media (max-width: 1345px) {
     .section-engenharia h2 {
@@ -93,6 +95,7 @@
         margin-bottom: 15px;
         letter-spacing: 2px;
     }
+}
 
 
  @media (max-width: 808px) {
@@ -105,17 +108,63 @@
     .section-engenharia h2 {
         font-size: 32px;
     }
+    .div-texto-somos h1 {
+        font-size: 14px;
+    }
+    .div-texto-somos h2 {
+        font-size: 32px;
+    }
+    .div-texto-somos p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .div-texto-somos{
+        margin-left: 0px;
+    }
+    .div-texto-somos {
+        padding: 20px;
+        border-radius: 0;
+        margin-left: 0px;
+    }
+    .section-quem-somos {
+        background-color: transparent;
+        padding-top: 40px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    
+    
 
 
+    .text-content {
+        padding: 0px 10px 10px 0px;
+    }
+    .content-quem-somos {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .content-quem-somos {
+        flex-direction: column;
+
+}
+  .div-image img{
+    display: none;
+  }
+   
  }
 
 
 
+
     
 
 
 
     
     
- }
+ 
 

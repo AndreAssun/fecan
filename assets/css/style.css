@@ -105,9 +105,12 @@ header ul li a {
 }
 
 .section-intro{
+    
+    height: 100vh;
     background:url(/assets/image/fundo-sessao-oneB.webp);
     background-size: cover;
-    height: 100vh;
+    
+    
     
 
     
@@ -212,6 +215,101 @@ header ul li a {
     width: 40%;
     
     
+}
+
+/*sessao Quem somos*/
+
+.section-quem-somos{
+    background-color: #F2F2F2;
+    height: 100%;
+    
+}
+
+.content-quem-somos{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.div-image{
+    justify-content: center;
+}
+
+.div-image img{
+    width: 380px;
+    border-radius: 60px 60px 60px 0px;
+    margin-right: 140px;
+    margin-left: 45%;
+    margin-top: 100px;
+    margin-bottom: 140px;
+
+    
+}
+
+.div-texto-somos{
+    background-color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    margin-left: 10%;
+    border-radius: 120.4px 0px 0px 120.4px;
+    
+}
+
+.text-content{
+    padding: 60px;
+}
+
+.text-content h1::after{
+    content: "";
+    display: block;
+    background-color:  #FFB337;
+    width: 100px;
+    height: 5px;
+    margin-top: 10px;
+}
+
+.div-texto-somos h1{
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.div-texto-somos h2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 2px; 
+}
+
+.div-texto-somos p{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    width: 90% ;
+    line-height: 180%;
+    
+}
+
+.text-content button{
+    text-transform: uppercase;
+    padding: 15px 20px;
+    letter-spacing: 0.5px;
+    background-color: #FFB337;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top:30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.text-content button:hover{
+    background-color: #FFC565;
 }
 
 
