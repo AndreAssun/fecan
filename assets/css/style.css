@@ -504,6 +504,14 @@ header ul li a {
 
 /*civil*/
 
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 150px;
+    
+}
+
 .section-civil{
     width: 100%;
     background-color: #466FC8;
@@ -512,18 +520,25 @@ header ul li a {
     
 }
 
+.section-gesso{
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
 .carousel{
     max-width: 500px;
     height: auto;
 }
 
-.carrossel2{
-    display: none;
 
-}
 
 .icon-solucoes{
     width: 50px;
+    margin-bottom: 10px;
 }
 
 .div-texto-civil{
@@ -533,6 +548,16 @@ header ul li a {
     flex-direction: column;
     gap: 40px;
 }
+
+.div-texto-gesso{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
 
 
 .div-texto-civil h1{
@@ -544,9 +569,33 @@ header ul li a {
     
 }
 
+.div-texto-gesso h1{
+    letter-spacing: 10px;
+    color: rgb(14, 14, 14);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
 
 .div-texto-civil h2{
     color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 2px; 
+    display: flex;
+    object-fit: cover;
+
+    letter-spacing: 20px;
+    gap: 20px;
+    
+}
+
+.div-texto-gesso h2{
+    color: rgb(14, 14, 14);
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 600;
@@ -557,6 +606,17 @@ header ul li a {
     letter-spacing: 20px;
     gap: 20px;
     
+}
+
+.div-texto-gesso p{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    width: 95% ;
+    line-height: 180%;
+    color: rgb(14, 14, 14);
+
 }
 
 .div-texto-civil p{
