@@ -512,6 +512,11 @@ header ul li a {
     
 }
 
+#titulo-maior{
+    font-size: 35px;
+    line-height: 140%;
+}
+
 .section-civil{
     width: 100%;
     background-color: #466FC8;
@@ -537,8 +542,8 @@ header ul li a {
 
 
 .icon-solucoes{
-    width: 50px;
-    margin-bottom: 10px;
+    width: 55px;
+    margin-bottom: 15px;
 }
 
 .div-texto-civil{
@@ -561,6 +566,7 @@ header ul li a {
 
 
 .div-texto-civil h1{
+    line-height: 150%;
     letter-spacing: 10px;
     color: white;
     text-transform: uppercase;
@@ -570,6 +576,7 @@ header ul li a {
 }
 
 .div-texto-gesso h1{
+    line-height: 150%;
     letter-spacing: 10px;
     color: rgb(14, 14, 14);
     text-transform: uppercase;

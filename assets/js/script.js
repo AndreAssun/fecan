@@ -23,38 +23,46 @@ btnMobile.addEventListener('touchstart', toggleMenu);
 
 
 
-//SCROLL SUAVE//
+// SCROLL SUAVE
 // 1 - Identificar o clique no menu
 // 2 - Verificar o item que foi clicado e fazer referência com o alvo
-// 3 - Verificar a distãncia entre o alvo e o topo
+// 3 - Verificar a distância entre o alvo e o topo
 // 4 - Animar o scroll até o alvo
-
-
 
 // 1 - Identificar o clique no menu
-const menuItens = document.querySelectorAll ('.menu-nav a[href^="#"]');
+const menuItens = document.querySelectorAll('.menu-nav a[href^="#"]');
+const cardsServicos = document.querySelectorAll('.cards-servicos a');
 
 
-//2 - Verificar o item que foi clicado e fazer referência com o alvo
 
-menuItens.forEach(item =>  {
+// 2 - Verificar o item que foi clicado e fazer referência com o alvo
+menuItens.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick);
-})
+});
 
-// 3 - Verificar a distãncia entre o alvo e o topo
+cardsServicos.forEach(card => {
+    card.addEventListener('click', scrollToIdOnClick);
+});
 
+// Adicione um evento de clique ao link "Serviços" no menu
+servicosLink.addEventListener('click', scrollToIdOnClick);
+
+// 3 - Verificar a distância entre o alvo e o topo
 function scrollToIdOnClick(event) {
     event.preventDefault();
-    const element = event.target;
+    const element = event.currentTarget;
     const id = element.getAttribute('href');
-    const to = document.querySelector(id).offsetTop;
+    const targetElement = document.querySelector(id);
     
-// 4 - Animar o scroll até o alvo
+    // Verifica se o elemento alvo existe
+    if (targetElement) {
+        const to = targetElement.offsetTop;
 
-    window.scroll({
-        top: to -40,
-        behavior:"smooth"
-
-    });
+        // 4 - Animar o scroll até o alvo
+        window.scroll({
+            top: to ,
+            behavior: "smooth"
+        });
+    }
 }
 
