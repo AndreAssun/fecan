@@ -131,6 +131,8 @@
     .div-texto-solucoes{
         margin-left: 0px;
     }
+
+    
 }
 
 /*linha do fecan*/
@@ -351,6 +353,36 @@
     .carousel-inner {
         display: none;
     }
+
+    /*footer*/
+
+    .footer-content{
+        width: 100%;
+    }
+
+    .footer-geral{
+        display: grid;
+        gap: 10px;
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        
+    }
+    .footer-assinatura{
+        background-color: #2d5fca;
+        color: white;
+        display: grid;
+        padding-top: 13px;
+        
+      }
+
+      .assinatura-content{
+        display: grid;
+        font-size: 14px;
+        
+      }
     
     
 
