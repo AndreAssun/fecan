@@ -436,6 +436,15 @@
    
  }
 
+ @media (max-width: 650px) {
+    #titulo-maior{
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+ }
+
+
 
 
 
