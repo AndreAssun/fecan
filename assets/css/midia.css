@@ -377,6 +377,34 @@
         padding-top: 13px;
         
       }
+    .footer-content img {
+        width: 130px;
+
+
+      }
+      .icons-footer img {
+        width: 25px;
+      }
+
+      .footer-content p {
+        font-size: 8px;
+    }
+
+    .footer-content h2 {
+        font-size: 12px;
+    }
+
+    .assinatura-content {
+        display: grid;
+        font-size: 10px
+    
+    }
+
+      .footer-content h3 {
+        font-size: 10px;
+      }
+
+     
 
       .assinatura-content{
         display: grid;
@@ -387,6 +415,9 @@
     
 
 }
+
+
+
 
 @media (max-width: 840px) {
     .cards-servicos {
